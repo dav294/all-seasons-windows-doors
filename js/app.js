@@ -210,7 +210,7 @@ gsap.to('.hero-content', {
 /* ── Product card hover glow ──────────────────────────────────── */
 document.querySelectorAll('.prod-card:not(.prod-card--accent)').forEach(card => {
   card.addEventListener('mouseenter', () => {
-    gsap.to(card, { boxShadow: '0 16px 48px rgba(44,110,73,0.10)', duration: 0.35 });
+    gsap.to(card, { boxShadow: '0 16px 48px rgba(0,87,91,0.10)', duration: 0.35 });
   });
   card.addEventListener('mouseleave', () => {
     gsap.to(card, { boxShadow: '0 0 0 rgba(0,0,0,0)', duration: 0.35 });
