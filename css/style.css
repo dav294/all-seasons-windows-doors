@@ -36,8 +36,8 @@
   --border-dk: rgba(255,255,255,0.08);
 
   /* Typography */
-  --font-h: 'Playfair Display', Georgia, serif;
-  --font-b: 'Nunito Sans', system-ui, sans-serif;
+  --font-h: 'Lora', Georgia, serif;
+  --font-b: 'Jost', system-ui, sans-serif;
 
   /* Easing */
   --ease-out:    cubic-bezier(0.22, 1, 0.36, 1);
@@ -603,6 +603,8 @@ button { background: none; border: none; cursor: pointer; font: inherit; }
   gap: 2px;
   background: var(--border);
   border: 1px solid var(--border);
+  /* single row — cards grow to match tallest */
+  align-items: stretch;
 }
 .prod-card {
   background: var(--bg);
@@ -690,8 +692,6 @@ button { background: none; border: none; cursor: pointer; font: inherit; }
   flex-direction: column;
   align-items: center;
   gap: 10px;
-  opacity: 0;
-  transform: translateY(20px);
 }
 .stat-item:last-child { border-right: none; }
 .stat-n {
@@ -799,8 +799,6 @@ button { background: none; border: none; cursor: pointer; font: inherit; }
   flex-direction: column;
   gap: 18px;
   position: relative;
-  opacity: 0;
-  transform: translateY(28px);
   transition: box-shadow 0.3s var(--ease-out), transform 0.3s var(--ease-out);
 }
 .testi-card:hover {
@@ -1028,11 +1026,12 @@ textarea { resize: vertical; min-height: 110px; }
   margin-bottom: 16px;
 }
 .footer-logo-img {
-  height: 50px;
+  height: 54px;
   width: auto;
   display: block;
-  /* lighten on dark background */
-  filter: brightness(0) invert(1) opacity(0.85);
+  background: #fff;
+  border-radius: 8px;
+  padding: 6px 10px;
 }
 .footer-brand p {
   font-size: 0.84rem;
@@ -1092,7 +1091,7 @@ textarea { resize: vertical; min-height: 110px; }
     gap: 48px;
   }
   .products-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
   }
   .testi-grid {
     grid-template-columns: repeat(2, 1fr);
