@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All Seasons Windows &amp; Doors | Ireland's Most Established Window Company</title>
+  <meta name="description" content="Ireland's longest established window and door company. Over 35 years supplying and fitting A+ rated uPVC windows, composite doors, and sunrooms across Ireland.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Nunito+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ─── NAVIGATION ─────────────────────────────────────────────── -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">
+        <span class="nav-logo-mark">AS</span>
+        <span class="nav-logo-text">All Seasons<br><em>Windows &amp; Doors</em></span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#why">Why Us</a></li>
+        <li><a href="#testimonials">Reviews</a></li>
+        <li><a href="#contact" class="nav-cta">Free Quote</a></li>
+      </ul>
+      <button class="burger" id="burger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile nav overlay -->
+  <div class="mobile-nav" id="mobileNav">
+    <button class="mobile-nav-close" id="mobileClose" aria-label="Close menu">✕</button>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#products">Products</a></li>
+      <li><a href="#why">Why Us</a></li>
+      <li><a href="#testimonials">Reviews</a></li>
+      <li><a href="#contact">Get a Quote</a></li>
+    </ul>
+    <div class="mobile-nav-foot">
+      <a href="tel:0867704301">086 770 4301</a>
+      <a href="mailto:aswdsales@gmail.com">aswdsales@gmail.com</a>
+    </div>
+  </div>
+
+  <!-- ─── HERO ───────────────────────────────────────────────────── -->
+  <section class="hero" id="hero">
+    <img src="assets/hero-bg.jpg" alt="Beautiful uPVC windows and composite doors on a modern Irish home" class="hero-bg-img">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-eyebrow">
+        <div class="eyebrow-rule"></div>
+        <span>Over 35 Years in Ireland</span>
+      </div>
+      <h1 class="hero-title">
+        <span class="ht-line">Windows &amp; Doors</span>
+        <em class="ht-line ht-italic">for Every Season</em>
+        <span class="ht-line">of Your Home</span>
+      </h1>
+      <p class="hero-sub">
+        Ireland's longest established window and door company.<br>
+        Precision installation. Passion for quality. Three decades of trust.
+      </p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-green">Get a Free Quote</a>
+        <a href="#products" class="btn btn-ghost">Our Products</a>
+      </div>
+      <div class="hero-trust">
+        <div class="trust-stars">
+          <svg viewBox="0 0 16 16" fill="#4CAF50"><path d="M8 1l1.8 3.6 4 .6-2.9 2.8.7 4L8 10l-3.6 1.9.7-4L2.2 5.2l4-.6z"/></svg>
+          <svg viewBox="0 0 16 16" fill="#4CAF50"><path d="M8 1l1.8 3.6 4 .6-2.9 2.8.7 4L8 10l-3.6 1.9.7-4L2.2 5.2l4-.6z"/></svg>
+          <svg viewBox="0 0 16 16" fill="#4CAF50"><path d="M8 1l1.8 3.6 4 .6-2.9 2.8.7 4L8 10l-3.6 1.9.7-4L2.2 5.2l4-.6z"/></svg>
+          <svg viewBox="0 0 16 16" fill="#4CAF50"><path d="M8 1l1.8 3.6 4 .6-2.9 2.8.7 4L8 10l-3.6 1.9.7-4L2.2 5.2l4-.6z"/></svg>
+          <svg viewBox="0 0 16 16" fill="#4CAF50"><path d="M8 1l1.8 3.6 4 .6-2.9 2.8.7 4L8 10l-3.6 1.9.7-4L2.2 5.2l4-.6z"/></svg>
+        </div>
+        <span class="trust-text"><strong>Thousands of happy customers</strong> &nbsp;·&nbsp; Nationwide service across Ireland</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── ABOUT ─────────────────────────────────────────────────── -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-intro" data-reveal="fade">
+        <span class="section-label">Who We Are</span>
+        <h2 class="section-title">Precision, Passion<br><em>and Longevity</em></h2>
+        <p class="about-lead">All Seasons Windows and Doors is Ireland's longest established window and door company, with over 35 years of experience supplying and fitting A+ rated products to homes across Ireland. Our mission is simple — deliver the very best product together with an exceptional service, every single time.</p>
+      </div>
+      <div class="about-cards">
+
+        <div class="about-card" data-reveal="scale">
+          <div class="about-card-icon">
+            <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.3">
+              <path d="M20 4l14 7v10c0 8-6 14-14 16C12 35 6 29 6 21V11z"/>
+              <path d="M14 20l4 4 8-8"/>
+            </svg>
+          </div>
+          <h3>A+ Rated Products</h3>
+          <p>Every window and door we supply achieves an A+ energy rating, cutting heat loss and lowering your energy bills from day one.</p>
+          <a href="#products" class="about-card-link">See Our Range →</a>
+        </div>
+
+        <div class="about-card" data-reveal="scale">
+          <div class="about-card-icon">
+            <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.3">
+              <circle cx="20" cy="20" r="14"/>
+              <path d="M14 20l4 4 8-8"/>
+              <path d="M20 6v4M20 30v4M6 20h4M30 20h4"/>
+            </svg>
+          </div>
+          <h3>Fully Accredited</h3>
+          <p>All our products are fully accredited and certified by the Window Fenestration UK and Ireland — the industry's gold standard.</p>
+          <a href="#why" class="about-card-link">Why Choose Us →</a>
+        </div>
+
+        <div class="about-card" data-reveal="scale">
+          <div class="about-card-icon">
+            <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.3">
+              <rect x="5" y="8" width="30" height="24" rx="2"/>
+              <path d="M5 16h30M14 8v24M26 8v24"/>
+            </svg>
+          </div>
+          <h3>Expert Installation</h3>
+          <p>Our professional fitting teams install with precision, treat your home with respect, and leave your property cleaner than they found it.</p>
+          <a href="#contact" class="about-card-link">Get a Quote →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── STORY ─────────────────────────────────────────────────── -->
+  <section class="story" id="story">
+    <div class="container">
+      <div class="story-inner">
+        <div class="story-text" data-reveal="left">
+          <span class="section-label">Our Story</span>
+          <h2 class="section-title">Ireland's most established<br><em>window company,<br>built on trust</em></h2>
+          <p>All Seasons Windows and Doors has been part of Irish homes for over 35 years — long before uPVC windows became the standard, we were already delivering quality installations to families who trusted us with their most important investment.</p>
+          <p>That trust has been passed from one generation to the next. Thousands of happy customers have recommended us to their children, neighbours, and friends. It's a legacy we take seriously on every single job, whether it's one window or a full house.</p>
+          <p>Today, the same values that built our reputation still guide every consultation, every measurement, and every installation — precision, developed with passion.</p>
+          <div class="story-stats">
+            <div class="story-stat">
+              <span class="story-stat-num">35+</span>
+              <span class="story-stat-label">Years Trading</span>
+            </div>
+            <div class="story-stat">
+              <span class="story-stat-num">A+</span>
+              <span class="story-stat-label">Energy Rated</span>
+            </div>
+            <div class="story-stat">
+              <span class="story-stat-num">1000s</span>
+              <span class="story-stat-label">Happy Customers</span>
+            </div>
+          </div>
+        </div>
+        <div class="story-image" data-reveal="right">
+          <div class="story-img-wrap">
+            <img src="assets/story-img.jpg" alt="All Seasons Windows and Doors installation team">
+            <div class="story-img-badge">
+              <span class="badge-num">35+</span>
+              <span class="badge-text">Years of<br>Excellence</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── PRODUCTS ──────────────────────────────────────────────── -->
+  <section class="products" id="products">
+    <div class="container">
+      <div class="products-header" data-reveal="fade">
+        <span class="section-label">What We Offer</span>
+        <h2 class="section-title">Complete window &amp;<br><em>door solutions</em></h2>
+        <p class="products-intro">From energy-efficient windows to stunning composite doors and spacious sunrooms — every product is A+ rated and professionally installed.</p>
+      </div>
+      <div class="products-grid">
+
+        <article class="prod-card" data-reveal="scale">
+          <span class="prod-num">01</span>
+          <div class="prod-icon">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.2">
+              <rect x="4" y="4" width="40" height="40" rx="2"/>
+              <line x1="4" y1="24" x2="44" y2="24"/>
+              <line x1="24" y1="4" x2="24" y2="44"/>
+            </svg>
+          </div>
+          <h3>Casement Windows</h3>
+          <p>Our most popular choice — A+ rated casement windows with exceptional thermal performance. Available in a full range of colours with double or triple glazing options.</p>
+          <a href="#contact" class="prod-link">Enquire <span aria-hidden="true">→</span></a>
+        </article>
+
+        <article class="prod-card" data-reveal="scale">
+          <span class="prod-num">02</span>
+          <div class="prod-icon">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.2">
+              <rect x="4" y="4" width="40" height="40" rx="2"/>
+              <path d="M4 24h40M24 4v40"/>
+              <path d="M36 10l4 4-4 4"/>
+            </svg>
+          </div>
+          <h3>Tilt &amp; Turn Windows</h3>
+          <p>The versatile choice for modern Irish homes — open inward for easy cleaning or tilt for secure ventilation. High-security specs and superb energy ratings.</p>
+          <a href="#contact" class="prod-link">Enquire <span aria-hidden="true">→</span></a>
+        </article>
+
+        <article class="prod-card" data-reveal="scale">
+          <span class="prod-num">03</span>
+          <div class="prod-icon">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.2">
+              <rect x="8" y="4" width="32" height="40" rx="2"/>
+              <circle cx="36" cy="24" r="2.5" fill="currentColor"/>
+              <line x1="8" y1="20" x2="40" y2="20"/>
+            </svg>
+          </div>
+          <h3>Palladio Composite Doors</h3>
+          <p>The finest composite doors available — durable, safe, and beautiful. Designed with a solid timber core for a door that looks as impressive as it performs. Fully customisable with our Palladio Door Designer.</p>
+          <a href="#contact" class="prod-link">Enquire <span aria-hidden="true">→</span></a>
+        </article>
+
+        <article class="prod-card" data-reveal="scale">
+          <span class="prod-num">04</span>
+          <div class="prod-icon">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.2">
+              <rect x="8" y="4" width="32" height="40" rx="2"/>
+              <line x1="8" y1="28" x2="40" y2="28"/>
+              <circle cx="36" cy="16" r="2.5" fill="currentColor"/>
+            </svg>
+          </div>
+          <h3>uPVC Back Doors</h3>
+          <p>Secure, energy-efficient uPVC back doors built for Irish weather. Multi-point locking systems and high-performance seals as standard — keeping your home safe and warm year-round.</p>
+          <a href="#contact" class="prod-link">Enquire <span aria-hidden="true">→</span></a>
+        </article>
+
+        <article class="prod-card" data-reveal="scale">
+          <span class="prod-num">05</span>
+          <div class="prod-icon">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.2">
+              <rect x="4" y="4" width="18" height="40" rx="2"/>
+              <rect x="26" y="4" width="18" height="40" rx="2"/>
+              <path d="M22 24h4"/>
+            </svg>
+          </div>
+          <h3>French &amp; Patio Doors</h3>
+          <p>Flood your living space with natural light. Our French and patio door systems connect your home to your garden beautifully, with flush sightlines and smooth, reliable operation.</p>
+          <a href="#contact" class="prod-link">Enquire <span aria-hidden="true">→</span></a>
+        </article>
+
+        <article class="prod-card prod-card--accent" data-reveal="scale">
+          <span class="prod-num">06</span>
+          <div class="prod-icon">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.2">
+              <path d="M4 40h40M8 40V20l16-14 16 14v20"/>
+              <rect x="18" y="28" width="12" height="12"/>
+              <line x1="24" y1="20" x2="24" y2="28"/>
+            </svg>
+          </div>
+          <h3>Sunrooms</h3>
+          <p>Extend your living space and bring the outdoors in. Our bespoke sunrooms are designed to complement your home's architecture and built to withstand every Irish season.</p>
+          <a href="#contact" class="prod-link">Enquire <span aria-hidden="true">→</span></a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── STATS ──────────────────────────────────────────────────── -->
+  <section class="stats" id="stats">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item" data-reveal="fade">
+          <span class="stat-n"><span class="counter" data-target="35">0</span><sup>+</sup></span>
+          <span class="stat-l">Years in Business</span>
+        </div>
+        <div class="stat-item" data-reveal="fade">
+          <span class="stat-n">A<sup>+</sup></span>
+          <span class="stat-l">Energy Rated</span>
+        </div>
+        <div class="stat-item" data-reveal="fade">
+          <span class="stat-n">1000<sup>s</sup></span>
+          <span class="stat-l">Happy Customers</span>
+        </div>
+        <div class="stat-item" data-reveal="fade">
+          <span class="stat-n">IE</span>
+          <span class="stat-l">Nationwide Service</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── WHY US ─────────────────────────────────────────────────── -->
+  <section class="why" id="why">
+    <div class="container">
+      <div class="why-inner">
+        <div class="why-left" data-reveal="left">
+          <span class="section-label light">Why All Seasons?</span>
+          <h2 class="section-title light">35 years of doing<br><em>the job right</em></h2>
+          <p class="why-intro">We've been fitting windows and doors into Irish homes since before most of our competitors were in business. That longevity isn't an accident — it's earned, one satisfied customer at a time.</p>
+          <a href="#contact" class="btn btn-outline-light">Get a Free Quote</a>
+        </div>
+        <ul class="why-list" data-reveal="right">
+          <li class="why-item">
+            <div class="why-tick">✓</div>
+            <div class="why-copy">
+              <strong>Ireland's Longest Established Company</strong>
+              <p>Over 35 years in business means deep expertise, proven reliability, and a reputation built on real results — not marketing promises.</p>
+            </div>
+          </li>
+          <li class="why-item">
+            <div class="why-tick">✓</div>
+            <div class="why-copy">
+              <strong>Free Consultations &amp; Quotations</strong>
+              <p>We visit your home, assess your needs, and provide a clear, honest quote — no pressure, no obligation, no hidden costs.</p>
+            </div>
+          </li>
+          <li class="why-item">
+            <div class="why-tick">✓</div>
+            <div class="why-copy">
+              <strong>Fully Certified &amp; Accredited</strong>
+              <p>Every product we supply is fully accredited and certified by Window Fenestration UK and Ireland — the industry benchmark for quality.</p>
+            </div>
+          </li>
+          <li class="why-item">
+            <div class="why-tick">✓</div>
+            <div class="why-copy">
+              <strong>High Security Specifications</strong>
+              <p>All our windows and doors meet the highest security standards. We never compromise on the safety of your home.</p>
+            </div>
+          </li>
+          <li class="why-item">
+            <div class="why-tick">✓</div>
+            <div class="why-copy">
+              <strong>Passed Down Through Generations</strong>
+              <p>Thousands of customers have referred us to their children and grandchildren. Our reputation is the only advertising we've ever needed.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── TESTIMONIALS ───────────────────────────────────────────── -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="testi-header" data-reveal="fade">
+        <span class="section-label">What Our Customers Say</span>
+        <h2 class="section-title">Trusted across Ireland<br><em>for over 35 years</em></h2>
+      </div>
+      <div class="testi-grid">
+
+        <div class="testi-card" data-reveal="bottom">
+          <div class="testi-quote">"</div>
+          <blockquote>Fionnuala and the team were fantastic from start to finish. Incredibly professional, tidy, and the windows are absolutely beautiful. Couldn't recommend highly enough.</blockquote>
+          <div class="testi-meta">
+            <div class="testi-avatar">MC</div>
+            <div class="testi-info">
+              <strong>M. Collins</strong>
+              <div class="testi-stars">★★★★★</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card" data-reveal="bottom">
+          <div class="testi-quote">"</div>
+          <blockquote>Patrick and his crew were excellent — on time, clean, efficient. Our new composite door has completely transformed the front of the house. The quality is second to none.</blockquote>
+          <div class="testi-meta">
+            <div class="testi-avatar">BR</div>
+            <div class="testi-info">
+              <strong>B. Ryan</strong>
+              <div class="testi-stars">★★★★★</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card" data-reveal="bottom">
+          <div class="testi-quote">"</div>
+          <blockquote>My parents used All Seasons years ago, so when we needed new windows there was no question who we'd call. Same brilliant service, same outstanding quality. A family tradition!</blockquote>
+          <div class="testi-meta">
+            <div class="testi-avatar">SD</div>
+            <div class="testi-info">
+              <strong>S. Dunne</strong>
+              <div class="testi-stars">★★★★★</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card" data-reveal="bottom">
+          <div class="testi-quote">"</div>
+          <blockquote>The difference in our heating bills since the new A+ rated windows were fitted is remarkable. The team was courteous, professional, and left the house spotless. Brilliant company.</blockquote>
+          <div class="testi-meta">
+            <div class="testi-avatar">OM</div>
+            <div class="testi-info">
+              <strong>O. Murphy</strong>
+              <div class="testi-stars">★★★★★</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card testi-card--cta" data-reveal="bottom">
+          <p>Join thousands of happy homeowners across Ireland who've trusted All Seasons for over 35 years.</p>
+          <a href="#contact" class="btn btn-green">Get Your Free Quote</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── CONTACT ────────────────────────────────────────────────── -->
+  <section class="contact" id="contact">
+    <div class="contact-bg"></div>
+    <div class="container">
+      <div class="contact-inner">
+        <div class="contact-left" data-reveal="fade">
+          <span class="section-label light">Get in Touch</span>
+          <h2 class="section-title light contact-h">Let's talk<br><em>windows &amp; doors</em></h2>
+          <p class="contact-sub">Call us, drop an email, or fill in the form.<br>Free consultations — absolutely no obligation.</p>
+          <div class="contact-details">
+            <a href="tel:0867704301" class="contact-item">
+              <div class="ci-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3.1 19.5 19.5 0 01-6-6 19.8 19.8 0 01-3.1-8.7A2 2 0 014.1 2h3a2 2 0 012 1.7c.1 1 .4 2 .8 2.9a2 2 0 01-.4 2.1L8.1 9.9a16 16 0 006 6l1.2-1.4a2 2 0 012.1-.4c.9.4 1.9.6 2.9.7a2 2 0 011.7 2.1z"/>
+                </svg>
+              </div>
+              <div>
+                <span class="ci-label">Call Us</span>
+                <span class="ci-value">086 770 4301</span>
+              </div>
+            </a>
+            <a href="mailto:aswdsales@gmail.com" class="contact-item">
+              <div class="ci-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                  <polyline points="22,6 12,13 2,6"/>
+                </svg>
+              </div>
+              <div>
+                <span class="ci-label">Email Us</span>
+                <span class="ci-value">aswdsales@gmail.com</span>
+              </div>
+            </a>
+            <div class="contact-item">
+              <div class="ci-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <circle cx="12" cy="12" r="10"/>
+                  <path d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/>
+                </svg>
+              </div>
+              <div>
+                <span class="ci-label">Website</span>
+                <span class="ci-value">allseasonswindowsanddoors.ie</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-right" data-reveal="fade">
+          <div class="quote-form-wrap">
+            <h3>Get a Free Quote</h3>
+            <form class="quote-form" name="quote" action="#" method="POST">
+              <div class="form-group">
+                <label for="q-name">Name</label>
+                <input type="text" id="q-name" name="name" placeholder="Your full name" required>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="q-email">Email</label>
+                  <input type="email" id="q-email" name="email" placeholder="you@example.com" required>
+                </div>
+                <div class="form-group">
+                  <label for="q-phone">Phone</label>
+                  <input type="tel" id="q-phone" name="phone" placeholder="e.g. 086 000 0000">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="q-service">Product / Service</label>
+                <select id="q-service" name="service">
+                  <option value="" disabled selected>Select a product…</option>
+                  <option>Casement Windows</option>
+                  <option>Tilt &amp; Turn Windows</option>
+                  <option>Palladio Composite Door</option>
+                  <option>uPVC Back Door</option>
+                  <option>French Doors</option>
+                  <option>Patio Doors</option>
+                  <option>Sunroom</option>
+                  <option>Full House — Multiple Products</option>
+                  <option>Other / Not Sure</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="q-comments">Details</label>
+                <textarea id="q-comments" name="comments" placeholder="Tell us about your project — property type, number of windows, any specific requirements…"></textarea>
+              </div>
+              <button type="submit" class="form-submit-btn">Send Enquiry</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ─────────────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <span class="footer-logo-mark">AS</span>
+            <span class="footer-logo-name">All Seasons<br><em>Windows &amp; Doors</em></span>
+          </div>
+          <p>Ireland's longest established window and door company.<br>Precision installed. Passion guaranteed.</p>
+        </div>
+        <nav class="footer-nav">
+          <a href="#about">About</a>
+          <a href="#products">Products</a>
+          <a href="#why">Why Us</a>
+          <a href="#testimonials">Reviews</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div class="footer-contact">
+          <a href="tel:0867704301">086 770 4301</a>
+          <a href="mailto:aswdsales@gmail.com">aswdsales@gmail.com</a>
+          <a href="https://allseasonswindowsanddoors.ie" target="_blank" rel="noopener">allseasonswindowsanddoors.ie</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 All Seasons Windows and Doors. All rights reserved. &nbsp;·&nbsp; Serving all of Ireland</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
